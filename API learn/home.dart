@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
           return ListTile(
             title: Text(users[index].email),
             subtitle: Row(
-              git config --global user.emailchildren: [
+              children: [
                 Text('${users[index].name.first} ${users[index].name.last}'),
               ],
             ),
